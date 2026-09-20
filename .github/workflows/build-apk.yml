@@ -14,7 +14,7 @@ jobs:
       - name: Extract corrected project
         run: |
           mkdir project
-          unzip -q NovelFullAndroid_v0.7_fixed.zip -d project
+          unzip -q NovelFullAndroid_v0.8.zip -d project
 
       - name: Set up Java 17
         uses: actions/setup-java@v5
